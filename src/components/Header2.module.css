@@ -85,6 +85,8 @@
   gap: var(--gap-7xs);
   min-width: 83px;
   z-index: 1;
+
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 .text2 {
   text-decoration: none;
@@ -107,7 +109,31 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0);
+
 }
+
+
+.contactButton1:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
+}
+.contactButton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
+}
+
+
 .text3 {
   text-decoration: none;
   position: relative;

@@ -54,6 +54,19 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+  transition: 0.3s;
+
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.contactButton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
 }
 .text1 {
   text-decoration: none;
@@ -65,6 +78,8 @@
   display: inline-block;
   min-width: 91px;
 }
+
+
 .contactButton1 {
   flex: 0.748;
   box-shadow: var(--shadows-shadow-xs);
@@ -79,7 +94,19 @@
   gap: var(--gap-7xs);
   min-width: 83px;
   z-index: 1;
+
+  border: 1px solid rgba(255, 255, 255, 0);
 }
+.contactButton1:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
+}
+
 .text2,
 .text3 {
   position: relative;

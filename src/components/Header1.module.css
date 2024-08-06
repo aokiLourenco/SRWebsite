@@ -54,7 +54,29 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
+
+.contactButton1:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
+}
+.contactButton:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 73, 226, 0.04),
+    rgba(83, 73, 226, 0.2)
+  );
+
+  border: 1px solid var(--purple-sr);
+}
+
+
 .text1 {
   align-self: stretch;
   width: 91px;
@@ -157,6 +179,8 @@
   padding: 0 var(--padding-43xl) 0 0;
   gap: var(--gap-xl);
   max-width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0);
+
 }
 .text5 {
   text-decoration: none;

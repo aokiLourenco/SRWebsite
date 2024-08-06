@@ -2,6 +2,8 @@ import { FunctionComponent } from "react";
 import AboutButton from "./AboutButton";
 import styles from "./Header1.module.css";
 
+// HEADER DO SERVER
+
 export type Header1Type = {
   className?: string;
 };
@@ -27,7 +29,7 @@ const Header1: FunctionComponent<Header1Type> = ({ className = "" }) => {
                   src="/placeholder.svg"
                 />
                 <div className={styles.textPadding}>
-                  <a className={styles.text}>INÍCIO</a>
+                  <a className={styles.text} href="/">INÍCIO</a>
                 </div>
                 <img
                   className={styles.placeholderIcon}
@@ -89,7 +91,7 @@ const Header1: FunctionComponent<Header1Type> = ({ className = "" }) => {
                   src="/placeholder.svg"
                 />
                 <div className={styles.textPadding}>
-                  <a className={styles.text4}>Contactos</a>
+                  <a className={styles.text4} href="/web-contact">Contactos</a>
                 </div>
                 <img
                   className={styles.placeholderIcon}
