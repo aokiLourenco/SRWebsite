@@ -1,0 +1,366 @@
+.bg {
+  align-self: stretch;
+  height: 1080px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--black);
+  display: none;
+  z-index: 0;
+}
+.webContactChild {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -500px;
+  left: calc(50% - 500px);
+  filter: blur(500px);
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-100);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.bgIcon {
+  width: 2422px;
+  height: 1680px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 2;
+}
+.frameChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  filter: blur(200px);
+  border-radius: 50%;
+  background-color: var(--color-mediumspringgreen-300);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseWrapper {
+  margin-left: -523px;
+  height: 350px;
+  width: 382px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 1455px);
+  flex-shrink: 0;
+}
+.contactos,
+.entraEmContacto {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.contactos {
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.entraEmContacto {
+  font-size: var(--font-size-21xl);
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--font-kanit);
+  color: var(--white);
+}
+.contactosParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.getInTouch {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frameGroup,
+.touchHeading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.touchHeading {
+  width: 297px;
+  flex-direction: column;
+  gap: 109px;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.frameItem {
+  width: 454px;
+  height: 270px;
+  position: relative;
+  box-shadow: 0 0 20px #5349e2;
+  border-radius: var(--br-xs);
+  background: linear-gradient(180deg, rgba(83, 73, 226, 0), #5349e2);
+  border: 2px solid var(--purple-sr);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.mail02Icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.contactsweetricerspt,
+.geral {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.geral {
+  align-self: stretch;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.contactsweetricerspt {
+  flex: 1;
+  white-space: nowrap;
+}
+.contactsweetricersptWrapper,
+.geralParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactsweetricersptWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-encode-sans-condensed);
+}
+.geralParent,
+.rectangleParent {
+  flex-direction: column;
+}
+.geralParent {
+  width: 298px;
+  gap: var(--gap-8xs);
+}
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 0 20px #5349e2;
+  border-radius: var(--br-xs);
+  background: linear-gradient(180deg, rgba(83, 73, 226, 0), #5349e2);
+  border: 2px solid var(--purple-sr);
+  box-sizing: border-box;
+  padding: 47px var(--padding-31xl) 67px;
+  gap: var(--gap-5xl);
+  min-width: 340px;
+  max-width: 100%;
+  z-index: 2;
+}
+.links {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.links,
+.linksWrapper,
+.touchContainer,
+.touchContainerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.linksWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 604px;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+  font-family: var(--font-kanit);
+}
+.touchContainer,
+.touchContainerWrapper {
+  flex-shrink: 0;
+}
+.touchContainer {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-xl);
+}
+.touchContainerWrapper {
+  width: 1246px;
+  flex-direction: column;
+  padding: 58px 0 0;
+  box-sizing: border-box;
+}
+.frameInner {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  filter: blur(300px);
+  border-radius: 50%;
+  background-color: var(--color-mediumspringgreen-300);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.ellipseContainer {
+  height: 838px;
+  width: 450px;
+  flex-direction: column;
+  padding: 388px 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 1910px);
+  flex-shrink: 0;
+}
+.content,
+.ellipseContainer,
+.frameParent,
+.webContact {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-318xl);
+  box-sizing: border-box;
+  gap: 141px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-cornflowerblue);
+  font-family: var(--font-encode-sans-condensed);
+}
+.content,
+.webContact {
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-10xs);
+  max-width: 100%;
+}
+.webContact {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--black);
+  overflow: hidden;
+  gap: var(--gap-12xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1900px) {
+  .touchContainerWrapper {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .linksWrapper,
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .touchContainerWrapper {
+    max-width: 100%;
+  }
+  .frameParent {
+    gap: 70px;
+    padding-left: var(--padding-149xl);
+    padding-right: var(--padding-149xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .entraEmContacto,
+  .geral {
+    font-size: var(--font-size-13xl);
+    line-height: 32px;
+  }
+  .touchContainerWrapper {
+    padding-top: 38px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .ellipseContainer {
+    padding-top: 252px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-16xl);
+    padding-left: var(--padding-65xl);
+    padding-right: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+  .webContact {
+    gap: var(--gap-mini);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactos {
+    font-size: var(--font-size-xl);
+  }
+  .entraEmContacto {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .getInTouch {
+    font-size: var(--font-size-xl);
+  }
+  .touchHeading {
+    gap: 54px;
+  }
+  .geral {
+    font-size: var(--font-size-5xl);
+    line-height: 24px;
+  }
+  .contactsweetricerspt {
+    font-size: var(--font-size-xl);
+  }
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .touchContainerWrapper {
+    max-width: 100%;
+  }
+  .ellipseContainer {
+    padding-top: 164px;
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-lg);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,308 @@
+.headerBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background: linear-gradient(
+    -90deg,
+    rgba(22, 22, 22, 0.2),
+    rgba(83, 73, 226, 0.2)
+  );
+}
+.logoIcon {
+  height: 44px;
+  width: 80.3px;
+  position: relative;
+  min-height: 44px;
+  z-index: 1;
+}
+.placeholderIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 54px;
+}
+.contactButton,
+.textPadding {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.contactButton {
+  box-shadow: var(--shadows-shadow-xs);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.text1 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 91px;
+}
+.contactButton1 {
+  flex: 0.748;
+  box-shadow: var(--shadows-shadow-xs);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  min-width: 83px;
+  z-index: 1;
+}
+.text2,
+.text3 {
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.text2 {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  min-width: 63px;
+}
+.text3 {
+  align-self: stretch;
+  width: 88px;
+  display: none;
+}
+.contactButton3,
+.textPadding3 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.textPadding3 {
+  align-self: stretch;
+  width: 93px;
+  display: none;
+  padding: 0 var(--padding-11xs);
+}
+.contactButton3 {
+  height: 44px;
+  flex: 1;
+  box-shadow: var(--shadows-shadow-xs);
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.text4 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 90px;
+}
+.aboutButton {
+  flex: 1;
+  box-shadow: 0 0 20px #5349e2;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(90deg, rgba(83, 73, 226, 0), #5349e2);
+  border: 2px solid var(--purple-sr);
+  overflow: hidden;
+  padding: var(--padding-6xs) var(--padding-sm);
+  gap: var(--gap-7xs);
+  z-index: 2;
+  margin-left: -125px;
+}
+.aboutButton,
+.contact,
+.contactButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactButtonParent {
+  flex: 1;
+  min-width: 83px;
+}
+.contact {
+  width: 570.3px;
+  padding: 0 var(--padding-49xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.text5 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 111px;
+}
+.aboutButton1 {
+  box-shadow: var(--shadows-shadow-xs);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 214, 107, 0.04),
+    rgba(34, 214, 107, 0.2)
+  );
+  border: 1px solid var(--color-mediumspringgreen-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-7xs);
+  z-index: 3;
+}
+.text6 {
+  text-decoration: none;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 25px;
+}
+.buttonsBottom,
+.contactButton4,
+.headerButtons,
+.logoParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactButton4 {
+  width: 61px;
+  box-shadow: var(--shadows-shadow-xs);
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--purple-sr);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-7xs);
+  z-index: 1;
+}
+.buttonsBottom,
+.headerButtons,
+.logoParent {
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.headerButtons,
+.logoParent {
+  gap: var(--gap-51xl-7);
+}
+.headerButtons {
+  width: 1563px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.header,
+.headerContent,
+.headerLine {
+  align-self: stretch;
+  box-sizing: border-box;
+}
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.header,
+.headerLine {
+  position: relative;
+}
+.headerLine {
+  height: 1px;
+  border-top: 1px solid var(--purple-sr);
+  flex-shrink: 0;
+}
+.header {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 1425px) {
+  .logoParent {
+    gap: var(--gap-16xl);
+  }
+  .headerButtons,
+  .logoParent {
+    flex-wrap: wrap;
+  }
+  .header {
+    height: auto;
+  }
+}
+@media screen and (max-width: 950px) {
+  .contact {
+    flex-wrap: wrap;
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .logoParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactButton1 {
+    flex: 1;
+  }
+  .buttonsBottom {
+    flex-wrap: wrap;
+  }
+}
