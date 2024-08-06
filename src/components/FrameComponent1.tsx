@@ -31,7 +31,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
                       src="/placeholder.svg"
                     />
                     <div className={styles.textPadding}>
-                      <a className={styles.text}>INÍCIO</a>
+                      <a className={styles.text} href="/">INÍCIO</a>
                     </div>
                     <img
                       className={styles.placeholderIcon}
@@ -62,7 +62,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
                         src="/placeholder.svg"
                       />
                       <div className={styles.textPadding}>
-                        <a className={styles.text2}>Servidores</a>
+                        <a className={styles.text2} href="/web-servers">Servidores</a>
                       </div>
                       <img
                         className={styles.placeholderIcon}
@@ -78,7 +78,7 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
                       src="/placeholder.svg"
                     />
                     <div className={styles.textPadding}>
-                      <a className={styles.text3}>Contactos</a>
+                      <a className={styles.text3} href="/web-contact">Contactos</a>
                     </div>
                     <img
                       className={styles.placeholderIcon}
