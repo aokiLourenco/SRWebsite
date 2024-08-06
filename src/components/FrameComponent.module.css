@@ -1,0 +1,111 @@
+.frameChild,
+.v1MultiArenas {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  align-self: stretch;
+  width: 614px;
+  border-radius: var(--br-xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(83, 73, 226, 0.5),
+    rgba(22, 22, 22, 0.25)
+  );
+  border: 1px solid var(--purple-sr);
+  box-sizing: border-box;
+  display: none;
+}
+.v1MultiArenas {
+  height: 70px;
+  flex: 1;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  border-radius: var(--br-xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(83, 73, 226, 0.5),
+    rgba(22, 22, 22, 0.25)
+  );
+  border: 1px solid var(--purple-sr);
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 399px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameItem {
+  align-self: stretch;
+  width: 138px;
+  position: relative;
+  display: none;
+}
+.emptyPlaceholder {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  line-height: 44px;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleGroup {
+  width: 138px;
+  border-radius: var(--br-xs);
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    rgba(83, 73, 226, 0.5),
+    rgba(22, 22, 22, 0.25)
+  );
+  border: 1px solid var(--purple-sr);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--white);
+  font-family: var(--font-kanit);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emptyPlaceholder,
+  .v1MultiArenas {
+    font-size: var(--font-size-xl);
+    line-height: 35px;
+  }
+}
