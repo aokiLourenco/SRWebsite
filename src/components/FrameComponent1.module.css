@@ -55,6 +55,14 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .text1 {
   align-self: stretch;
@@ -88,6 +96,14 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton1:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .text2 {
   text-decoration: none;
@@ -114,6 +130,14 @@
   gap: var(--gap-7xs);
   z-index: 2;
   margin-left: -125px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton2:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .contactButtonParent {
   flex: 1;
@@ -140,6 +164,15 @@
   gap: var(--gap-7xs);
   min-width: 83px;
   z-index: 1;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton3:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .buttons,
 .buttonsWrapper,
@@ -206,6 +239,14 @@
   padding: var(--padding-5xs) var(--padding-mini);
   gap: var(--gap-7xs);
   z-index: 3;
+
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.aboutButton:hover {
+  border: 1px solid white;
+  border-radius: 20px;
 }
 .text5 {
   text-decoration: none;

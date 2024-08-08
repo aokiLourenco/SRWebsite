@@ -55,6 +55,15 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 1;
+
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .text1,
 .text2 {
@@ -81,6 +90,14 @@
   padding: var(--padding-3xs) var(--padding-base);
   gap: var(--gap-7xs);
   z-index: 2;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: 0.3s ease-out;
+}
+
+.contactButton2:hover {
+  border: 2px solid white;
+  border-radius: 20px;
 }
 .text3 {
   align-self: stretch;
